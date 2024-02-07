@@ -1,0 +1,33 @@
+body{
+    height: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stopwatch{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    border-radius: 20px;
+}
+h1{
+    color:white
+}
+#timer{
+    color: white;
+    font-size: 30px;
+    font-weight: 2px;
+}
+
+.buttons{
+    margin: 5px;
+}
+
+
