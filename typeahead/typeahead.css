@@ -1,0 +1,47 @@
+*{
+    scrollbar-width: thin
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 10px;
+    border-radius: 6px;
+    border: 3px solid gray;
+    width: 40vw;
+}
+::placeholder{
+    color: rgb(110, 108, 108);
+    font-size: medium;
+    font-weight: 500;
+}
+
+ul{
+    list-style-type: none;
+    padding:0px
+}
+
+#suggestion-list{
+    color:gray;
+    font-size: medium;
+    font-weight: 600;
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+    margin-top: 2px;
+    li{
+        padding: 10px;
+        border: 1px solid lightgray;
+        border-radius: 2px;
+    }
+    li:nth-child(even){
+        background-color: lightgrey;
+    }
+    li:hover{
+        background-color: black;
+        color:white;
+    }
+}
