@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#input {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    height: 34%;
+}
+
+.textarear{
+    height: 100%;
+    margin: 5px;
+    textarea{
+        height: 100px;
+        border: 2px solid gray;
+    }
+}
+
+textarea::placeholder{
+    color:gray;
+    font-weight: 300;
+    font-size: large;
+}
+
+.input-options{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#toasts{
+    /* display: flex;
+    flex-direction: column;
+    width: 20%; */
+    /* overflow-y: scroll; */
+    width: 15%;
+}
+
+.toast{
+    border: 2px solid black;
+    border-radius: 6px;
+    display: flex;
+    margin-bottom: 4px  ;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.message{
+    padding-left: 6px;
+    width: 20px;
+}
+
+.success-toast{
+    background-color: green;
+    color:white
+}
+
+.error-toast{
+    background-color: red;
+    color:white
+}
+
+.cancel-button{
+    /* color: black; */
+    background: transparent; 
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    /* margin-left: 80px; */
+    border: none;
+}
+
+.cancel-button:hover{
+    transition: 100ms;
+    border: 2px solid white;
+    font-size: large;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
