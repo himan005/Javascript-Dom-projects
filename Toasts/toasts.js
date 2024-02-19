@@ -13,7 +13,6 @@ function addToast(){
     const type = document.querySelector('input[name=type]:checked').value
     const toast = createToast(message, isCancelable, type)
     document.getElementById('toasts').prepend(toast)
-
     setTimeout(()=> toast.remove(), getDuration());
 } 
 
